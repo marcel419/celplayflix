@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/cadastro.css">
+    <link rel="stylesheet" href="/style/Modal.css">
+    <title>Document</title>
+</head>
+
+<body background="capa-dos-filmes.jpg">
+    <main class="center">
+        <h1>𝘊𝘢𝘥𝘢𝘴𝘵𝘳o</h1>
+        <input type="text" placeholder="Nome Completo" id="nome">
+        <input type="text" placeholder="CPF" id="cpf">
+        <input type="text" placeholder="CEP" maxlength="9" id="cep">
+        <input type="text" placeholder="Logradouro" id="logradouro">
+        <input type="text" placeholder="Cidade" id="localidade">
+        <input type="text" placeholder="Email" id="email"><br>
+        <input type="password" placeholder="Senha" id="senha"><br>
+        <button class="btnCadastrar">Entrar</button><br>
+        <a href="Login.html">Voltar</a>
+
+        <div id="modal-ativar" class="modal-container">
+            <div class="modal">
+                <div class="modal-body">
+                    <h3 class="subtitulo">É necessário preencher todos os campos</h3>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+        <script src="Scripts/cadastro.js">
+        </script>
+
+    </main>
+    <script src="/js/owl/cadastro.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+}
+
+main {
+    text-align: center;
+    background-color: rgba(0, 0, 0, .75);
+    width: 1300px;
+    margin: auto auto;
+}
+
+iframe {
+    width: 1070px;
+    height: 600px;
+}

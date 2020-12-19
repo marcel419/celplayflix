@@ -1,0 +1,116 @@
+.btn-cancelar-chamado {
+    background-color: darkred;
+    padding: 15px 35px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cancelar-fim-chamado {
+    text-align: center;
+    background-color: darkred;
+    padding: 15px 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.subtitulo {
+    color: black;
+    left: -10;
+}
+
+#Comprar {
+    background-color: darkred;
+    padding: 15px 35px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 40px;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.modal-container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .75);
+}
+
+.modal-body {
+    text-align: center;
+    margin-top: -50px;
+    padding: 0 10px;
+    margin-bottom: 50px;
+}
+
+.modal-footer {
+    text-align: center;
+}
+
+.modal-container.mostrar {
+    display: flex;
+}
+
+.modal {
+    background-color: white;
+    min-width: 300px;
+    padding: 80px 80px 20px 80px;
+    position: relative;
+    border-radius: 5px;
+}
+
+@keyframes modal {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -100px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.mostrar .modal {
+    animation: modal .6s;
+}
+
+.fechar {
+    position: absolute;
+    font-size: 1.2em;
+    top: -20px;
+    right: -20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0 4px 4px black;
+}
+
+#btn-chamado:hover {
+    height: 30px;
+    background-color: #a00000;
+    transition: 400ms;
+}
+
+#fim-chamado:hover {
+    background-color: #a00000;
+    transition: 400ms;
+}
+
+.cancelar-fim-chamado:hover {
+    background-color: #a00000;
+    transition: 400ms;
+}
